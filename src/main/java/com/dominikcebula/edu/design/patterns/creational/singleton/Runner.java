@@ -8,5 +8,6 @@ public class Runner {
         ThreadSafeSingleton.getInstance();
         OptimizedThreadSafeSingleton.getInstance();
         EnumSingleton.INSTANCE.someOperation();
+        BillPughSingleton.getInstance();
     }
 }
